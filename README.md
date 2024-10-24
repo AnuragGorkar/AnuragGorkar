@@ -1,24 +1,28 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=AnuragGorkar.AnuragGorkar" />
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Pedro+Muniz!;" />
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?font=Roboto+&pause=1000&color=E5E6D1&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" 
+      alt="Typing SVG" 
+    />
 </h1>
+<br>
 
-<h3 align="center">A passionate software developer from Canada 🇨🇦</h3>
+<h3 align="center">A passionate software developer and machine learning enthusiast from India 🇮🇳, now based in the USA</h3>
 
 <br/>
 
 <div align="center">
  
- 🔭 I’m currently working on **a marketplace**
- 
- 🌱 I’m currently learning **Docker, Supabase, AWS**
+ 🔭 I’m currently working on **enhancing my competitive programming skills and building web applications**
 
-💬 Ask me about **Node.js, React, Firebase... or anything [here](https://github.com/salesp07/salesp07/issues)**
+ 🌱 I’m currently learning **Deep Learning, Machine Learning Deployment, and System Design**
 
-⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
+ 💬 Ask me about **Data Science, Python, Machine Learning, Web Development with React, or anything [here](https://github.com/adgorkar/adgorkar/issues)**
 
- </div>
+ ⚡ Fun fact: <!-- START FUN FACT -->Loading...<!-- END FUN FACT -->
+
+</div>
  
 <div align="center"> 
   <a href="mailto:pedro.sales.muniz@gmail.com">
