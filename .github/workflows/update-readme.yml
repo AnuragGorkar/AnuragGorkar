@@ -12,39 +12,44 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository content
-        uses: actions/checkout@v4  # Updated to latest version
-        
+        uses: actions/checkout@v4
+
       - name: Install jq
         run: |
           echo "Installing jq..."
           sudo apt-get install jq
           echo "jq installed successfully"
-          
-      - name: Fetch a random fun fact
+
+      - name: Fetch and update README
         run: |
           echo "Fetching a random fun fact..."
           curl https://uselessfacts.jsph.pl/api/v2/facts/random?language=en -o funfact.json
           echo "Fun fact fetched, checking content of funfact.json"
           cat funfact.json
+          
+          # Extract and escape the fact
           fact=$(jq -r .text funfact.json)
           echo "Fun fact extracted: $fact"
-          # Escape special characters in the fact to prevent sed issues
           escaped_fact=$(echo "$fact" | sed 's/[\/&]/\\&/g')
-          echo "$escaped_fact" > funfact.txt
           
-      - name: Update README
-        run: |
+          # Update README
           echo "Updating README with the new fun fact..."
           sed -i "s|<!-- START FUN FACT -->.*<!-- END FUN FACT -->|<!-- START FUN FACT -->$escaped_fact<!-- END FUN FACT -->|g" README.md
           echo "README updated successfully"
           
-      - name: Commit and push changes
-        run: |
-          echo "Committing changes to README..."
+          # Configure git
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add README.md
-          git commit -m "Updated fun fact"
-          echo "Pushing changes to repository..."
-          git push
-          echo "Changes pushed successfully"
+          
+          # Commit and push if there are changes
+          if [[ -n $(git status -s) ]]; then
+            git add README.md
+            git commit -m "Updated fun fact"
+            git push
+            echo "Changes pushed successfully"
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Cleanup
+        run: rm -f funfact.json
