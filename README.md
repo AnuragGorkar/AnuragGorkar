@@ -28,7 +28,7 @@
  🔭 I'm currently a Masters Student of Computer Science @ NCSU  
  🌱 I'm currently learning **Deep Learning, Machine Learning Deployment, and Software Engineering**
  💬 Ask me about **Data Science, Python, Machine Learning, or anything [here](https://adgorkar.vercel.app/#contact)**
- ⚡ Fun fact: <!-- START FUN FACT -->The only nation whose name begins with an "A", but doesn`t end in an "A" is Afghanistan.<!-- END FUN FACT -->
+ ⚡ Fun fact: <!-- START FUN FACT -->The most common name in world is Mohammed.<!-- END FUN FACT -->
 </div>
  
 <div align="center"> 
