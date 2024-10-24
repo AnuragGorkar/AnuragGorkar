@@ -8,40 +8,43 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-    - name: Checkout repository content
-      uses: actions/checkout@v2
-
-    - name: Install jq
-      run: |
-        echo "Installing jq..."
-        sudo apt-get install jq
-        echo "jq installed successfully"
-
-    - name: Fetch a random fun fact
-      run: |
-        echo "Fetching a random fun fact..."
-        curl https://uselessfacts.jsph.pl/api/v2/facts/random?language=en -o funfact.json
-        echo "Fun fact fetched, checking content of funfact.json"
-        cat funfact.json  # This prints the content of the fetched JSON to the log
-        fact=$(jq -r .text funfact.json)
-        echo "Fun fact extracted: $fact"
-        echo "$fact" > funfact.txt
-
-    - name: Update README
-      run: |
-        echo "Updating README with the new fun fact..."
-        sed -i "s|<!-- START FUN FACT -->.*<!-- END FUN FACT -->|<!-- START FUN FACT -->$fact<!-- END FUN FACT -->|g" README.md
-        echo "README updated successfully"
-
-    - name: Commit and push changes
-      run: |
-        echo "Committing changes to README..."
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add README.md
-        git commit -m "Updated fun fact"
-        echo "Pushing changes to repository..."
-        git push
-        echo "Changes pushed successfully"
+      - name: Checkout repository content
+        uses: actions/checkout@v4  # Updated to latest version
+        
+      - name: Install jq
+        run: |
+          echo "Installing jq..."
+          sudo apt-get install jq
+          echo "jq installed successfully"
+          
+      - name: Fetch a random fun fact
+        run: |
+          echo "Fetching a random fun fact..."
+          curl https://uselessfacts.jsph.pl/api/v2/facts/random?language=en -o funfact.json
+          echo "Fun fact fetched, checking content of funfact.json"
+          cat funfact.json
+          fact=$(jq -r .text funfact.json)
+          echo "Fun fact extracted: $fact"
+          # Escape special characters in the fact to prevent sed issues
+          escaped_fact=$(echo "$fact" | sed 's/[\/&]/\\&/g')
+          echo "$escaped_fact" > funfact.txt
+          
+      - name: Update README
+        run: |
+          echo "Updating README with the new fun fact..."
+          sed -i "s|<!-- START FUN FACT -->.*<!-- END FUN FACT -->|<!-- START FUN FACT -->$escaped_fact<!-- END FUN FACT -->|g" README.md
+          echo "README updated successfully"
+          
+      - name: Commit and push changes
+        run: |
+          echo "Committing changes to README..."
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add README.md
+          git commit -m "Updated fun fact"
+          echo "Pushing changes to repository..."
+          git push
+          echo "Changes pushed successfully"
