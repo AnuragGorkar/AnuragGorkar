@@ -20,7 +20,7 @@
 
  💬 Ask me about **Data Science, Python, Machine Learning, Web Development with React, or anything [here](https://github.com/adgorkar/adgorkar/issues)**
 
- ⚡ Fun fact: <!-- START FUN FACT -->Telly Savalas and Louis Armstrong died on their birthdays.  <!-- END FUN FACT -->
+ ⚡ Fun fact: <!-- START FUN FACT -->All 50 states are listed across the top of the Lincoln Memorial on the back of the $5 bill.<!-- END FUN FACT -->
 
 </div>
  
