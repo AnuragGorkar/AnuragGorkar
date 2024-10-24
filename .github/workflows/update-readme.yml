@@ -13,6 +13,9 @@ jobs:
     - name: Checkout repository content
       uses: actions/checkout@v2
 
+    - name: Install jq
+      run: sudo apt-get install jq
+
     - name: Fetch a random fun fact
       run: |
         curl https://uselessfacts.jsph.pl/random.json?language=en -o funfact.json
