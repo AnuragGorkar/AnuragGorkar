@@ -2,7 +2,7 @@ name: Update README with Fun Fact
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # This will run every 30 minutes
+    - cron: "*/30 * * * *"  # Run every 30 minutes
   workflow_dispatch:
 
 jobs:
@@ -14,23 +14,34 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install jq
-      run: sudo apt-get install jq
+      run: |
+        echo "Installing jq..."
+        sudo apt-get install jq
+        echo "jq installed successfully"
 
     - name: Fetch a random fun fact
       run: |
+        echo "Fetching a random fun fact..."
         curl https://uselessfacts.jsph.pl/random.json?language=en -o funfact.json
+        echo "Fun fact fetched, checking content of funfact.json"
+        cat funfact.json  # This prints the content of the fetched JSON to the log
         fact=$(jq -r .text funfact.json)
+        echo "Fun fact extracted: $fact"
         echo "$fact" > funfact.txt
 
     - name: Update README
       run: |
-        # Replace the fun fact in README.md
+        echo "Updating README with the new fun fact..."
         sed -i "s|<!-- START FUN FACT -->.*<!-- END FUN FACT -->|<!-- START FUN FACT -->$fact<!-- END FUN FACT -->|g" README.md
+        echo "README updated successfully"
 
     - name: Commit and push changes
       run: |
+        echo "Committing changes to README..."
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add README.md
         git commit -m "Updated fun fact"
+        echo "Pushing changes to repository..."
         git push
+        echo "Changes pushed successfully"
