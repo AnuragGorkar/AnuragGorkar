@@ -22,7 +22,7 @@ jobs:
     - name: Fetch a random fun fact
       run: |
         echo "Fetching a random fun fact..."
-        curl https://uselessfacts.jsph.pl/random.json?language=en -o funfact.json
+        curl https://uselessfacts.jsph.pl/api/v2/facts/random?language=en -o funfact.json
         echo "Fun fact fetched, checking content of funfact.json"
         cat funfact.json  # This prints the content of the fetched JSON to the log
         fact=$(jq -r .text funfact.json)
