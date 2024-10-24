@@ -20,7 +20,7 @@
 
  💬 Ask me about **Data Science, Python, Machine Learning, Web Development with React, or anything [here](https://github.com/adgorkar/adgorkar/issues)**
 
- ⚡ Fun fact: <!-- START FUN FACT -->Loading...<!-- END FUN FACT -->
+ ⚡ Fun fact: <!-- START FUN FACT --><!-- END FUN FACT -->
 
 </div>
  
