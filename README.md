@@ -20,7 +20,7 @@
 
  💬 Ask me about **Data Science, Python, Machine Learning, Web Development with React, or anything [here](https://github.com/adgorkar/adgorkar/issues)**
 
- ⚡ Fun fact: <!-- START FUN FACT --><!-- END FUN FACT -->
+ ⚡ Fun fact: <!-- START FUN FACT -->Count the number of cricket chirps in a 15-second period, add 37 to the total, and your result will be very close to the actual outdoor Fahrenheit temperature.<!-- END FUN FACT -->
 
 </div>
  
