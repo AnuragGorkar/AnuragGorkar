@@ -1,0 +1,33 @@
+name: Update README with Fun Fact
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # This will run every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository content
+      uses: actions/checkout@v2
+
+    - name: Fetch a random fun fact
+      run: |
+        curl https://uselessfacts.jsph.pl/random.json?language=en -o funfact.json
+        fact=$(jq -r .text funfact.json)
+        echo "$fact" > funfact.txt
+
+    - name: Update README
+      run: |
+        # Replace the fun fact in README.md
+        sed -i "s|<!-- START FUN FACT -->.*<!-- END FUN FACT -->|<!-- START FUN FACT -->$fact<!-- END FUN FACT -->|g" README.md
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add README.md
+        git commit -m "Updated fun fact"
+        git push
