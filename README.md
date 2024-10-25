@@ -167,7 +167,7 @@
   <div style="line-height: 0.8;">🌱 I'm currently learning <strong>Deep Learning, Machine Learning Deployment, and Software Engineering</strong></div>
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
-  <div style="line-height: 0.8;">⚡ Random fun fact: <!-- START FUN FACT -->A literal translation of a standard traffic sign in China: "Give large space to the festive dog that makes sport in the roadway."<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8;">⚡ Random fun fact: <!-- START FUN FACT -->Telly Savalas and Louis Armstrong died on their birthdays.  <!-- END FUN FACT --></div>
 </div>
 
 
