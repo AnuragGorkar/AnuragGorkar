@@ -1,32 +1,84 @@
 <div align="center">
     <p style="font-size: 28px">
-    <img 
-        src="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=E5E6D1&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" 
-        alt="Typing SVG" 
-    />
+    <picture>
+
+<source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=E5E6D1&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" />
+        
+<source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=000000&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" />
+        
+<img src="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=000000&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" alt="Typing SVG" />
+    </picture>
     </p>
 </div>
 
+
 <div align="center">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=380&height=45&duration=1&lines=%E2%9A%A1+Github+Stats+%E2%9A%A1" alt="⚡ Github Stats ⚡"/>
-</div>
+<picture>
+  <!-- Dark mode image -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=380&height=45&duration=1&lines=%E2%9A%A1+Github+Stats+%E2%9A%A1" />
+  
+  <!-- Light mode image -->
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=380&height=45&duration=1&lines=%E2%9A%A1+Github+Stats+%E2%9A%A1" />
+  
+  <!-- Fallback for browsers that don't support prefers-color-scheme -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=380&height=45&duration=1&lines=%E2%9A%A1+Github+Stats+%E2%9A%A1" alt="⚡ Github Stats ⚡" />
+</picture>
+
 
 </div>
 
 <br>
-<div align=center>
-  <img width=390 height=150 src="https://github-readme-stats.vercel.app/api?username=AnuragGorkar&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="streak stats"/>
-  <img width=390 height=150 src="https://streak-stats.demolab.com?user=AnuragGorkar&theme=react&border_radius=10" alt="readme stats" />
+
+<div align="center">
+  <!-- GitHub Stats -->
+  <picture>
+    <!-- Dark mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AnuragGorkar&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" />
+    <!-- Light mode -->
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AnuragGorkar&count_private=true&show_icons=true&theme=default&rank_icon=github&border_radius=10" />
+    <!-- Fallback -->
+    <img width="390" height="150" src="https://github-readme-stats.vercel.app/api?username=AnuragGorkar&count_private=true&show_icons=true&theme=default&rank_icon=github&border_radius=10" alt="GitHub Stats" />
+  </picture>
+
+  <!-- Streak Stats -->
+  <picture>
+    <!-- Dark mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AnuragGorkar&theme=react&border_radius=10" />
+    <!-- Light mode -->
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AnuragGorkar&theme=default&border_radius=10" />
+    <!-- Fallback -->
+    <img width="390" height="150" src="https://streak-stats.demolab.com?user=AnuragGorkar&theme=default&border_radius=10" alt="Streak Stats" />
+  </picture>
+
   <br><br>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragGorkar&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+
+  <!-- Top Languages -->
+  <picture>
+    <!-- Dark mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragGorkar&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" />
+    <!-- Light mode -->
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragGorkar&hide=HTML&langs_count=8&layout=compact&theme=default&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" />
+    <!-- Fallback -->
+    <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragGorkar&hide=HTML&langs_count=8&layout=compact&theme=default&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Top Languages" />
+  </picture>
 </div>
 <br>
 <div align="center">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+</div>
+
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%90%8D+My+Contributions+%F0%9F%90%8D" alt="🐍 My Contributions 🐍"/>
+<picture>
+  <!-- Dark mode image -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%90%8D+My+Contributions+%F0%9F%90%8D" />
+  
+  <!-- Light mode image -->
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%90%8D+My+Contributions+%F0%9F%90%8D" />
+  
+  <!-- Fallback for browsers that don't support prefers-color-scheme -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%90%8D+My+Contributions+%F0%9F%90%8D" alt="🐍 My Contributions 🐍" />
+</picture>
 </div>
 
 <div align="center">
@@ -37,9 +89,17 @@
 
 <div align="center">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%E2%9A%92%EF%B8%8F+Languages-Frameworks-Tools+%E2%9A%92%EF%B8%8F" alt="⚒️ Languages-Frameworks-Tools ⚒️"/>
-</div>
+<picture>
+  <!-- Dark mode image -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%E2%9A%92%EF%B8%8F+Languages-Frameworks-Tools+%E2%9A%92%EF%B8%8F" />
+  
+  <!-- Light mode image -->
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%E2%9A%92%EF%B8%8F+Languages-Frameworks-Tools+%E2%9A%92%EF%B8%8F" />
+  
+  <!-- Fallback for browsers that don't support prefers-color-scheme -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%E2%9A%92%EF%B8%8F+Languages-Frameworks-Tools+%E2%9A%92%EF%B8%8F" alt="⚒️ Languages-Frameworks-Tools ⚒️" />
+</picture>
+
 
 <div align="center">
   <!-- First row of icons (Machine Learning) -->
@@ -77,9 +137,17 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 <div align="center">
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+About+Me+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB" alt="🧑‍💻 About Me 🧑‍💻"/>
-</div>
+<picture>
+  <!-- Dark mode image -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+About+Me+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB" />
+  
+  <!-- Light mode image -->
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+About+Me+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB" />
+  
+  <!-- Fallback for browsers that don't support prefers-color-scheme -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=999999&color=000000&center=true&vCenter=true&repeat=false&width=480&height=45&duration=1&lines=%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB+About+Me+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB" alt="🧑‍💻 About Me 🧑‍💻" />
+</picture>
+
 
 
 
