@@ -1,12 +1,13 @@
 <div align="center">
+<div align="center">
     <p style="font-size: 28px">
     <picture>
 
-<source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=E5E6D1&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" />
+<source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?duration=600&pause=100&color=E5E6D1&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" />
         
-<source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=000000&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" />
+<source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?duration=600&pause=100&color=000000&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" />
         
-<img src="https://readme-typing-svg.herokuapp.com?duration=1500&pause=1000&color=000000&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?duration=600&pause=100&color=000000&size=20&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=70&lines=Hi+this+is+Anurag+Gorkar...+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB;Welcome+to+my+GitHub+Profile!+%F0%9F%9A%80" alt="Typing SVG" />
     </picture>
     </p>
 </div>
@@ -63,7 +64,7 @@
     <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnuragGorkar&hide=HTML&langs_count=8&layout=compact&theme=default&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Top Languages" />
   </picture>
 </div>
-<br>
+
 <div align="center">
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </div>
@@ -84,7 +85,7 @@
 <div align="center">
   <div style="border-bottom: none"></div>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/AnuragGorkar/AnuragGorkar/output/github-contribution-grid-snake.svg" />
-  <br/><br/>
+  <br/>
 </div>
 
 <div align="center">
@@ -167,7 +168,8 @@
   <div style="line-height: 0.8;">🌱 I'm currently learning <strong>Deep Learning, Machine Learning Deployment, and Software Engineering</strong></div>
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
-  <div style="line-height: 0.8;">⚡ Random fun fact: <!-- START FUN FACT -->Telly Savalas and Louis Armstrong died on their birthdays.  <!-- END FUN FACT --></div>
+    
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->Telly Savalas and Louis Armstrong died on their birthdays.  <!-- END FUN FACT --></div>
 </div>
 
 
@@ -200,4 +202,5 @@
 
 
 <br/>
+</div>
 
