@@ -169,7 +169,7 @@
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
     
-  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->In Aspen Colorado, you can have a maximum income of $104,000 and still receive government subsidized housing.<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->A jellyfish is 95 percent water!<!-- END FUN FACT --></div>
 </div>
 
 
