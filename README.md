@@ -169,7 +169,7 @@
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
     
-  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->For some time Frederic Chopin, the composer and pianist, wore a beard on only one side of his face, explaining: "It does not matter, my audience sees only my right side."<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->There are 336 dimples on a regulation golf ball.<!-- END FUN FACT --></div>
 </div>
 
 
