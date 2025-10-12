@@ -169,7 +169,7 @@
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
     
-  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->In the 17th century, the value of pi was known to 35 decimal places. Today, to 1.2411 trillion.<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->The 3 most valuable brand names on earth are Marlboro, Coca-Cola, and Budweiser (in that order).<!-- END FUN FACT --></div>
 </div>
 
 
