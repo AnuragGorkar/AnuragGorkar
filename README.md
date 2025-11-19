@@ -169,7 +169,7 @@
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
     
-  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->Nerve impulses to and from the brain travel as fast as 170 miles (274 km) per hour.<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->A duck's quack doesn't echo, and no one knows why.<!-- END FUN FACT --></div>
 </div>
 
 
