@@ -169,7 +169,7 @@
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
     
-  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->Honking of car horns for a couple that just got married is an old superstition to insure great sex.<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->The average raindrop falls at 7 miles per hour.<!-- END FUN FACT --></div>
 </div>
 
 
