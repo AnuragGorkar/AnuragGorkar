@@ -169,7 +169,7 @@
   <div style="line-height: 0.8;">💬 Ask me about <strong>Data Science, Python, Machine Learning, or anything <a href="https://adgorkar.vercel.app/#contact">here</a></strong></div>
   <br/>
     
-  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->It takes 3,000 cows to supply the NFL with enough leather for a year`s supply of footballs.<!-- END FUN FACT --></div>
+  <div style="line-height: 0.8; ">✒️ <strong>Random fun fact every morning:</strong> <!-- START FUN FACT -->A B-25 bomber crashed into the 79th floor of the Empire State Building on July 28, 1945.<!-- END FUN FACT --></div>
 </div>
 
 
